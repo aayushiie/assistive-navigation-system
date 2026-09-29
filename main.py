@@ -221,7 +221,7 @@ rmse_mono=np.sqrt(np.mean((data["mono"]-data["gt"])**2))
 mae_depth=np.mean(abs(data["depth_cal"]-data["gt"]))
 rmse_depth=np.sqrt(np.mean((data["depth_cal"]-data["gt"])**2))
 
-print("\n=== RESULTS ===")
+print("\nRESULTS:")
 print("Monocular MAE:",mae_mono)
 print("Monocular RMSE:",rmse_mono)
 print("Calibrated Depth MAE:",mae_depth)
